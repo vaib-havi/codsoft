@@ -1,0 +1,65 @@
+body{
+    background-image: url(nature_beach_sand_ocean_sea_shore_vacation_water_tropical_4k_hd.jpg);
+    background-size:cover;
+}
+
+.nav{
+    font-family:system-ui ;
+    float:right;
+    height: 30px;
+    width: 100px;
+    padding: 30px;
+    font-size: 30px; 
+    color: rgb(255, 255, 255);  
+}
+
+.nav:hover{
+    text-decoration: underline;
+}
+
+.main{
+    font-family:system-ui ;
+    height: 300px;
+    width: 300px;
+    color: white;
+    font-weight: bold;
+    margin: 60px;
+    display: inline-block;
+}
+.child1{
+    font-size: 100px;
+}
+.child3{
+    background-color: aliceblue;
+    color: black;
+    height:20px;
+    width:130px;
+    text-align: center;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+img{
+    border-radius:30px; 
+}
+
+img:hover{
+    box-shadow: 3px 3px 11px 1px black;
+    transform: translatey(-10px);
+}
+    
+.grid{
+   
+    float:right;
+    display: grid;
+    gap: 50px; /* Adjust the gap between images */
+
+    
+}
+
+#box1{
+    grid-column: 1/2;
+}
+#box2{
+    grid-column: 2/3;
+}

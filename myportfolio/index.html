@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <button class="tablink" onclick="openTab('about')">About</button>
+        <button class="tablink" onclick="openTab('skills')">Skills</button>
+        <button class="tablink" onclick="openTab('projects')">Projects</button>
+        <button class="tablink" onclick="openTab('contact')">Contact Us</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="home">
+    <div class="container">
+      <h2>Welcome to My Portfolio!</h2>
+      <p>
+        Hi there! My name is Vaibhavi and I'm passionate about web development.
+    I have proficiency in HTML, CSS, JavaScript (including frameworks like React), and C/C++.
+    Additionally, I attended a Python bootcamp to further enhance my skills.
+    Currently, I am working as a web development intern at Codsoft.
+      </p>
+      <button class="hire-button">Hire Me</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="about" class="tabcontent">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Vaibhavi, a dedicated and enthusiastic web developer with a strong passion for creating exceptional digital experiences. My journey into the world of web development began with a profound interest in crafting beautiful and functional websites.
+
+Over the years, I have honed my skills in various programming languages and technologies. I am proficient in HTML, CSS, and JavaScript, and I have extensive experience working with modern frameworks like React.js. Additionally, I have a solid foundation in C/C++ programming languages, enabling me to develop efficient and robust solutions.
+
+Seeking to broaden my horizons and stay updated with industry trends, I recently attended a comprehensive Python bootcamp. This experience further enriched my skill set and provided me with valuable insights into backend development and data science.
+
+Currently, I am embarking on an exciting journey as a web development intern at Codsoft, where I have the opportunity to apply my knowledge and collaborate with talented professionals to deliver innovative web solutions. I am eager to continue learning, growing, and making meaningful contributions to the world of web development.
+      </p>
+    </div>
+
+    <div id="skills" class="tabcontent">
+      <h2>Skills</h2>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+      <p>Python</p>
+      <p>C</p>
+      <p>C++</p>
+    </div>
+
+    <div id="projects" class="tabcontent">
+      <h2>Projects</h2>
+      <div class="project">
+        <img src="/images.jpeg" alt="Project 1">
+        <h3>Project 1</h3>
+        <p>Description of Project 1</p>
+      </div>
+      <div class="project">
+        <img src="/images.jpeg" alt="Project 2">
+        <h3>Project 2</h3>
+        <p>Description of Project 2</p>
+      </div>
+      <div class="project">
+        <img src="/images.jpeg" alt="Project 3">
+        <h3>Project 3</h3>
+        <p>Description of Project 3</p>
+      </div>
+    </div>
+
+    <div id="contact" class="tabcontent">
+      <h2>Contact Us</h2>
+      <p>Email: vaibhavi@codsoft.com</p>
+      <p>Phone: 8493720338</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
